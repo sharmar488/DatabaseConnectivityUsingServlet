@@ -66,7 +66,7 @@ public class Search extends HttpServlet {
              out.print ("<tr><td>" + rs.getString (1) + "</td><td>" +  rs.getString (2) + " </td><td>" + rs.getInt (3) + "</td></tr>");
          }
             out.print ("</table>");
-            out.println("</br>");;
+            out.println("</br>");
             out.println("<h2> <a href = ./index.html> Reset </a></h2>");
 			
 		} catch (SQLException e) {

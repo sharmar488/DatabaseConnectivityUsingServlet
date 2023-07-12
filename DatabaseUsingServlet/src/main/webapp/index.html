@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+	<meta charset="ISO-8859-1">
+	<title>Insert title here</title>
+	<style type="text/css">
+		body {
+			background-color: bisque;
+		}
+
+		.centered-big-input {
+			display: block;
+			margin: 0 auto;
+			/* Center the input horizontally */
+			width: 30%;
+			/* Set the desired width */
+			height: 30px;
+			/* Set the desired height */
+			font-size: 12px;
+			/* Set the desired font size */
+			padding: 8px;
+			/* Adjust padding as needed */
+		}
+	</style>
 </head>
+
 <body>
-<form method="Get" action="Search">
-	Enter Employee ID:<input type="number" name="id">
-	</br>
-	<input type="submit" value="Search">
-</form>
+	<form method="Get" action="Search">
+		<input type="number" name="id" class="centered-big-input" placeholder="Enter Employee Id">
+		</br>
+		<input class="centered-big-input" type="submit" value="Search">
+	</form>
 </body>
+
 </html>
